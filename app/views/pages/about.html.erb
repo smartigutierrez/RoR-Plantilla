@@ -1,0 +1,50 @@
+
+	<body class='is-preload-0 is-preload-1 is-preload-2'>
+
+<!-- Main -->
+			<div id='main'>
+<!-- Header -->
+					<header id='header'>
+					<h1>¿Cómo funciona esta galería?</h1>
+                    <h3>La galería toma las fotos y las muestra en su versión thumbnail a la derecha y su versión completa  al centro.</h3>
+						<ul class='icons'>
+						    <%= link_to 'Volver', '/pages/index'%>
+                            <li><a href='/pages/about' class='icon fa-sun'><span class='label'></span></a></li>						</ul>
+					</header>
+<!-- Thumbnail -->
+					<section id='thumbnails'>
+						<article>
+						<%= link_to(image_tag("fulls/01.jpg"), "fulls/01.jpg", class: "thumbnail") %>
+						<%= image_tag("thumbs/01.jpg", alt: "") %>
+						<h2>Un trago no le hace mal a nadie...</h2>
+						<p>Bebe un refrescante trago a la orilla del mar.</p>
+						</article>
+						<article>
+						<%= link_to(image_tag("fulls/02.jpg"), "fulls/02.jpg", class: "thumbnail") %>
+							<%= image_tag("thumbs/02.jpg", alt: "") %>
+						<h2>¡Días de playa!</h2>
+						<p>Disfruta en familia un relajante día de playa.</p>
+						</article>						
+						<article>
+						<%= link_to(image_tag("fulls/03.jpg"), "fulls/03.jpg", class: "thumbnail") %>
+						<%= image_tag("thumbs/03.jpg", alt: "") %>
+						<h2>¿Cabañas en el mar?</h2>
+						<p>Conoce las curiosas cabañas de Tahíti.</p>
+						</article>
+                        <article>
+						<%= link_to(image_tag("fulls/04.jpg"), "fulls/04.jpg", class: "thumbnail") %>
+						<%= image_tag("thumbs/04.jpg", alt: "") %>
+						<h2>¡Se me antojan unas vacaciones!</h2>
+						<p>Arena blanca, aguas cristalinas...</p>
+						</article>
+					</section>
+			</div>
+    </body>
+
+
+
+
+
+
+
+
